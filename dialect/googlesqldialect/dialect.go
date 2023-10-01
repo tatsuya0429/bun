@@ -68,7 +68,3 @@ func (d *Dialect) onField(field *schema.Field) {
 func (d *Dialect) IdentQuote() byte {
 	return '"'
 }
-
-func fieldSQLType(field *schema.Field) string {
-	return ""
-}
